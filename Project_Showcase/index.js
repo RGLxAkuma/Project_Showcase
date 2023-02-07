@@ -7,7 +7,7 @@ function reveal(){
     {
         const winHeight = window.innerHeight;
         const revealTop = reveals[i].getBoundingClientRect().top;
-        const revealPoint = 220;
+        const revealPoint = 210;
 
         if(revealTop < winHeight-revealPoint)
         {
